@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "52232872292",
+    "firebase_url": "https://foodrestorunthub-default-rtdb.firebaseio.com",
+    "project_id": "foodrestorunthub",
+    "storage_bucket": "foodrestorunthub.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:52232872292:android:88e053eb89e11f5bcbda71",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "52232872292-tl6kiaug83nm89vj40m2rq7ob8laibb2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myapplication",
+            "certificate_hash": "543bf7fa3b0bb7c2a716197b719e7c24448632b8"
+          }
+        },
+        {
+          "client_id": "52232872292-f4ik4q86pl4du4qp27v89m6kguiqio4m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPFSYcFTDTJ9wuh2_0sa5QDHdfpZBczG8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "52232872292-f4ik4q86pl4du4qp27v89m6kguiqio4m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

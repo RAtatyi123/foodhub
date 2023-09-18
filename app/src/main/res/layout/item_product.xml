@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="180dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    android:layout_height="240dp">
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingStart="6dp"
+            android:paddingEnd="6dp">
+
+            <ImageView
+                android:id="@+id/product_photo"
+                android:layout_width="163dp"
+                android:layout_height="130dp"
+                android:layout_gravity="top|center"
+                android:scaleType="fitXY"
+                android:src="@drawable/pasta" />
+
+            <LinearLayout
+                android:layout_width="166dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="1dp"
+                android:layout_marginTop="7dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/Star"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="1dp"
+                    android:src="@drawable/star" />
+
+                <TextView
+                    android:id="@+id/product_rating"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="3dp"
+                    android:text="4.8"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:id="@+id/Addition"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="1dp"
+                    android:paddingStart="1dp"
+                    android:src="@drawable/addition" />
+
+                <ImageView
+                    android:id="@+id/Additioncolvoproduct"
+                    android:layout_width="24dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="1dp"
+                    android:paddingStart="1dp"
+                    android:src="@drawable/addition" />
+
+                <TextView
+                    android:id="@+id/product_colvo"
+                    android:layout_width="21dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="3dp"
+                    android:text="0"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:id="@+id/Substraction"
+                    android:layout_width="22dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="1dp"
+                    android:paddingStart="1dp"
+                    android:src="@drawable/minuses" />
+
+                <ImageView
+                    android:id="@+id/Delete"
+                    android:layout_width="22dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="1dp"
+                    android:paddingStart="1dp"
+                    android:src="@drawable/ic_baseline_delete_24" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/product_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:text="Pasta Karbonara"
+                android:textSize="14.5sp" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:paddingStart="2dp"
+                android:paddingEnd="2dp">
+
+                <TextView
+                    android:id="@+id/price_textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="299 $"
+                    android:textColor="@color/black"
+                    android:textSize="14.5sp" />
+
+                <TextView
+                    android:id="@+id/old_price_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:text="499"
+                    android:textSize="13.5sp" />
+            </RelativeLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>
